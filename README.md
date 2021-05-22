@@ -33,7 +33,7 @@ This API exposes the routes `GET /api/` and `POST /api/`
 
 API docs (powered by OpenAPI) can be accessed through `http://yourdomain/api/docs`
 
-<img src="" alt="api docs sample"/>
+<img src="https://raw.githubusercontent.com/virb30/machine_learning_api/master/images/ml_api_docs.bmp" alt="api docs sample"/>
 
 
 
