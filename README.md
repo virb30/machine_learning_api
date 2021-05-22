@@ -33,6 +33,9 @@ This API exposes the routes `GET /api/` and `POST /api/`
 
 API docs (powered by OpenAPI) can be accessed through `http://yourdomain/api/docs`
 
+<img src="" alt="api docs sample"/>
+
+
 
 # Usage
 
