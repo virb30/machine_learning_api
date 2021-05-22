@@ -47,7 +47,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Deploy:
+Heroku Deploy (failing):
 
 ```
 PRJ=myapp && \
@@ -59,10 +59,13 @@ heroku config:set DEBUG=True SECRET_KEY=`cat .env | grep SECRET_KEY | cut -d = -
 git push heroku master
 ```
 
-
 ## Other models
 
 To use another model download the new trained model `.h5` file and put it into `core/assets` folder
 (or any folder your preference)
 
-Register the new model into `core/models_ml.py` dictionary and use it in Predictor class `Predictor(models['new_model_key''])` 
+Register the new model into `core/models_ml.py` dictionary and use it in Predictor class `Predictor(models['new_model_key''])`
+
+# TODO
+
+- [ ] Solve the compiled `slug size is too large` problem on heroku deploy
